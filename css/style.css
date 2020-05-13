@@ -91,6 +91,12 @@ hr {
   margin-bottom: 50px;
 }
 
+@media only screen and (max-width: 600px) {
+  .pfp-image {
+    width: 40%;
+ }
+}
+
 .white-text {
   color: #fff;
 }
