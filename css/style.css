@@ -40,7 +40,7 @@ hr {
 
 
 .jumbotron {
-  background-image: url("/Users/david/Desktop/Web Development/Portfolio/images/brooklyn bridge.jpg");
+  background-image: url("images/brooklyn bridge.jpg");
   background-size: cover;
   background-position: center;
   padding-bottom: 40%;
