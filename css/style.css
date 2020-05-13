@@ -41,12 +41,14 @@ hr {
 .navbar-logo {
   width: 15%;
   padding: 0;
-  float: left;
+  clear: both;
 }
 
-@media only screen and (max-width: 870px) {
+@media only screen and (min-width: 870px) {
   .navbar-logo {
-    clear: both;
+  float: left;
+  width: 15%;
+  padding: 0;
   }
 }
 
