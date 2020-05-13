@@ -103,6 +103,10 @@ hr {
   color: #def4f0;
 }
 
+.skill-item:hover {
+   color: #9be3de; 
+}
+
 .skill-text {
   font-size: 1rem;
   font-weight: 600;
