@@ -38,6 +38,18 @@ hr {
     margin: 0;
 }
 
+.navbar-logo {
+  width: 15%;
+  padding: 0;
+  float: left;
+}
+
+@media only screen and (max-width: 870px) {
+  .navbar-logo {
+    clear: both;
+  }
+}
+
 .nav-item {
   font-size: 1.5rem;
   color: #fff;
