@@ -16,7 +16,7 @@ h2 {
 
 hr {
   border-top: none;
-  width: 60%;
+  width: 50%;
   border-bottom: 2px solid #fff;
 }
 
@@ -82,12 +82,12 @@ hr {
   background-image: url("photo1-1.jpg");
   background-size: cover;
   background-position: center;
-  filter: blur(4px);
-  -webkit-filter: blur(4px);
-  -webkit-filter: blur(4px);
- -moz-filter: blur(4px);
-  -o-filter: blur(4px);
-  -ms-filter: blur(4px);
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  -webkit-filter: blur(3px);
+ -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
   position: absolute;
   top: 0;
   left: 0;
@@ -179,10 +179,6 @@ font-size: 2.5rem;
 }
 
 
-.skill-item:hover {
-   color: #9be3de;
-}
-
 .skill-text {
   font-size: 1rem;
   font-weight: 600;
@@ -191,12 +187,15 @@ font-size: 2.5rem;
 }
 
 .skill-text a {
-  color: #9be3de;
-  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 2;
+  color: #fff;
 }
 
 .skill-text a:hover {
-  text-decoration: underline;
+  color: #9be3de;
+  text-decoration: none;
 }
 
 #work {
