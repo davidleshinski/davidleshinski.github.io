@@ -46,9 +46,6 @@ hr {
 
 
 
-.container-fluid {
-  padding: 3% 0%
-}
 
 .navbar {
   background: #9be3de;
@@ -130,6 +127,7 @@ font-size: 2.5rem;
 }
 
 #about {
+  padding: 3% 5%;
   background: #def4f0;
 }
 
