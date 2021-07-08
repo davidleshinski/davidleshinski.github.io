@@ -1,3 +1,8 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -42,7 +47,7 @@ hr {
 
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 0%
 }
 .navbar {
   background: #9be3de;
@@ -160,6 +165,7 @@ font-size: 2.5rem;
 
 #skills {
   background: #d9455f;
+  padding: 3% 6%;
 }
 
 .skills-title {
@@ -181,22 +187,21 @@ font-size: 2.5rem;
 
 .skill-text {
   font-size: 1rem;
-  font-weight: 600;
+
   line-height: 1.2;
   color: #fff;
 }
-
+/* 
 .skill-text a {
   font-size: 1rem;
-  font-weight: 600;
   line-height: 2;
   color: #fff;
-}
+} */
 
-.skill-text a:hover {
+/* .skill-text a:hover {
   color: #9be3de;
   text-decoration: none;
-}
+} */
 
 #work {
   background: #def4f0;
@@ -260,7 +265,7 @@ font-size: 2.5rem;
 
 #contact {
   background: #9be3de;
-  padding: 3% 30%;
+  padding: 3% 10%;
 }
 
 .contact-icon {
