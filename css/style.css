@@ -49,6 +49,7 @@ hr {
 .container-fluid {
   padding: 3% 0%
 }
+
 .navbar {
   background: #9be3de;
     padding: 2% 15% 1%;
@@ -128,8 +129,6 @@ font-size: 2.5rem;
  }
 }
 
-
-
 #about {
   background: #def4f0;
 }
@@ -187,7 +186,6 @@ font-size: 2.5rem;
 
 .skill-text {
   font-size: 1rem;
-
   line-height: 1.2;
   color: #fff;
 }
